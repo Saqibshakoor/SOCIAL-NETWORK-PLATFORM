@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network Platform</title>
+    <link rel="stylesheet" href="social.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Social Network Platform</h1>
+            <div id="profile">
+                <img src="assets/images/profile.png" alt="Profile Picture">
+                <span id="username">Username</span>
+            </div>
+        </header>
+        <main>
+            <div id="post-form">
+                <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+                <button id="post-button">Post</button>
+            </div>
+            <div id="feed"></div>
+        </main>
+    </div>
+    <script src="social.js"></script>
+    <script src="js/websocket.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+</html>
